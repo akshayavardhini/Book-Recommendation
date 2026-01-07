@@ -1,4 +1,4 @@
-# NextRead – AI Book Recommendation System
+# Book Recommendation System
 
 A machine learning–based web application that recommends books based on titles and genres using content-based filtering techniques.
 
