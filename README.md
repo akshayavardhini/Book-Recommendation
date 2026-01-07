@@ -109,10 +109,6 @@ pip install -r requirements.txt
 
 Ensure Python is installed correctly and added to the system PATH.
 
-## Disclaimer
-
-This project is intended for educational and learning purposes only.
-The recommendations are generated based on dataset patterns and may not reflect individual preferences.
 
 ## Authors
 
