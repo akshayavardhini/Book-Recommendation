@@ -18,7 +18,7 @@ about_html = """
     <p style='color: #ccc;'><strong>🎓 Education:</strong><br>M.Tech Integrated Software Engineering at VIT</p>
     <p style='color: #ccc;'><strong>Project:</strong><br>AI-Based Book Recommendation System</p>
     <p style='color: #ccc;'><strong>🌐 Connect:</strong><br>
-        <a href='https://github.com/akshayavardhini84' target='_blank' style='color:#4B8BBE;'>🐙 GitHub</a><br>
+        <a href='https://https://github.com/akshayavardhini' target='_blank' style='color:#4B8BBE;'>🐙 GitHub</a><br>
         <a href='linkedin.com/in/akshaya-vardhini-001725278' target='_blank' style='color:#4B8BBE;'>💼 LinkedIn</a>
     </p>
 </div>
@@ -69,3 +69,4 @@ with col2:
         st.switch_page("pages/Dashboard.py")  # No path or .py
 st.markdown("</div>", unsafe_allow_html=True)
 st.markdown("<br><hr><br>", unsafe_allow_html=True)
+
