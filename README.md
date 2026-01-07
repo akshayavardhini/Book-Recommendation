@@ -1,90 +1,91 @@
-NextRead – AI Book Recommendation System
+# NextRead – AI Book Recommendation System
 
-A Streamlit-based AI web application that provides personalized book recommendations based on book titles and genres using content-based filtering techniques.
+A machine learning–based web application that recommends books based on titles and genres using content-based filtering techniques.
 
-Description
+## Description
 
-NextRead is an AI-powered book recommendation system designed to help users discover books tailored to their interests. The application analyzes book titles and genre tags using Natural Language Processing techniques such as TF-IDF and cosine similarity to generate relevant recommendations.
+The NextRead project focuses on helping users discover books tailored to their interests using Natural Language Processing techniques. The system analyzes book titles and genre tags to recommend similar books through content-based filtering. Multiple recommendation approaches are evaluated, and insights are visualized using an interactive model performance dashboard. The application is deployed as a Streamlit web app and is developed for educational and demonstration purposes.
 
-The project also includes a Model Performance Dashboard that visually compares different recommendation approaches using key evaluation metrics. This application is developed for educational and demonstration purposes.
+## Features
 
-Features
+* User-friendly Streamlit web interface
+* Book recommendations based on title similarity
+* Genre-based book discovery
+* Content-based filtering using NLP techniques
+* Interactive model performance dashboard
 
-User-friendly Streamlit web interface
+## Live Application
 
-Book recommendations based on title similarity
-
-Genre-based book discovery
-
-Content-based filtering using NLP
-
-Interactive model performance dashboard
-
-Clean UI with multi-page navigation
-
-Live Application
-
-The application is deployed and hosted using Streamlit Cloud.
+The application is already deployed and hosted using Streamlit.
 
 Access the live app here:
 
+```
 https://nextread123.streamlit.app/
+```
 
-Getting Started
-Dependencies
+## Getting Started
 
-Python 3.8 or higher
+### Dependencies
 
-Operating System: Windows / macOS / Linux
+* Python 3.8 or higher
+* Operating System: Windows / macOS / Linux
 
-Required Libraries
+Required Python libraries:
 
-All required dependencies are listed in the requirements.txt file:
+* streamlit
+* pandas
+* numpy
+* scikit-learn
+* plotly
 
-streamlit
+All required dependencies are listed in the `requirements.txt` file.
 
-pandas
-
-numpy
-
-scikit-learn
-
-plotly
-
-Installation
+### Installing
 
 Clone the repository:
 
+```bash
 git clone https://github.com/akshayavardhini84/nextread.git
-
+```
 
 Navigate to the project directory:
 
+```bash
 cd nextread
+```
 
+Install the required dependencies:
 
-Install dependencies:
-
+```bash
 pip install -r requirements.txt
+```
 
-Running the Application
+### Executing Program
 
-Start the Streamlit app:
+Run the Streamlit application:
 
+```bash
 streamlit run Home.py
+```
 
+Open your browser and navigate to:
 
-Open your browser and visit:
-
+```
 http://localhost:8501
+```
 
-Project Structure
+Use the interface to explore book recommendations and model performance insights.
+
+## Project Structure
+
+```
 book-recommendation/
 │
 ├── Home.py                 # Main landing page
 │
 ├── pages/
-│   ├── Recommendation.py   # Book recommendation engine
+│   ├── Recommendation.py   # Book recommendation module
 │   └── Dashboard.py        # Model performance dashboard
 │
 ├── data/
@@ -95,32 +96,33 @@ book-recommendation/
 │
 ├── requirements.txt        # Project dependencies
 └── README.md               # Project documentation
+```
 
-Recommendation Approach
+## Help
 
-Title-Based Recommendation:
-Uses TF-IDF vectorization on book titles and cosine similarity to find similar books.
+If you encounter issues while installing dependencies or running the application, try:
 
-Genre-Based Recommendation:
-Recommends books based on selected genre tags extracted from the dataset.
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
 
-Disclaimer
+Ensure Python is installed correctly and added to the system PATH.
 
-This project is developed for educational and learning purposes only.
-Recommendations are based on dataset patterns and do not guarantee user preference accuracy.
+## Disclaimer
 
-Author
+This project is intended for educational and learning purposes only.
+The recommendations are generated based on dataset patterns and may not reflect individual preferences.
 
-Akshaya Vardhini
+## Authors
+
+**Akshaya Vardhini**
 Pre-Final Year M.Tech Integrated Software Engineering Student, VIT
-Interests: Machine Learning | Data Science | Web Development
+Machine Learning | Data Science | Web Development
 
-Acknowledgments
+## Acknowledgments
 
-Kaggle Goodreads Book Dataset
-
-Scikit-learn Documentation
-
-Streamlit Community
-
-Open-source Contributors
+* Kaggle Goodreads Book Dataset
+* Scikit-learn Documentation
+* Streamlit Community
+* Open-source Machine Learning Contributors
