@@ -19,7 +19,7 @@ about_html = """
     <p style='color: #ccc;'><strong>🎓 Education:</strong><br>M.Tech Integrated Software Engineering at VIT</p>
     <p style='color: #ccc;'><strong>Project:</strong><br>AI Book Recommendation System</p>
     <p style='color: #ccc;'><strong>🌐 Connect:</strong><br>
-        <a href='https://github.com/akshayavardhini84' target='_blank' style='color:#4B8BBE;'>🐙 GitHub</a><br>
+        <a href='https://https://github.com/akshayavardhini' target='_blank' style='color:#4B8BBE;'>🐙 GitHub</a><br>
         <a href='linkedin.com/in/akshaya-vardhini-001725278' target='_blank' style='color:#4B8BBE;'>💼 LinkedIn</a>
     </p>
 </div>
@@ -98,4 +98,5 @@ fig.update_layout(
     showlegend=False,
     margin=dict(l=10, r=10, t=60, b=10)
 )
+
 st.plotly_chart(fig, use_container_width=True)
