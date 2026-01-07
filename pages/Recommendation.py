@@ -22,7 +22,7 @@ about_html = """
     <p style='color: #ccc;'><strong>🎓 Education:</strong><br>M.Tech Integrated Software Engineering at VIT</p>
     <p style='color: #ccc;'><strong> Project:</strong><br>AI Book Recommendation System</p>
     <p style='color: #ccc;'><strong>🌐 Connect:</strong><br>
-        <a href='https://github.com/akshayavardhini84' target='_blank' style='color:#4B8BBE;'>🐙 GitHub</a><br>
+        <a href='https://https://github.com/akshayavardhini' target='_blank' style='color:#4B8BBE;'>🐙 GitHub</a><br>
         <a href='linkedin.com/in/akshaya-vardhini-001725278' target='_blank' style='color:#4B8BBE;'>💼 LinkedIn</a>
     </p>
 </div>
@@ -89,4 +89,5 @@ else:
         else:
             st.markdown(f"<h3 style='color:#4B8BBE;'>Top picks of # <b>{selected_tag}</b></h3>", unsafe_allow_html=True)
             for idx, row in recommendations.iterrows():
+
                 st.markdown(f"- **{row['title']}** by *{row['authors']}*")
