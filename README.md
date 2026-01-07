@@ -116,9 +116,9 @@ The recommendations are generated based on dataset patterns and may not reflect 
 
 ## Authors
 
-**Akshaya Vardhini**
-Pre-Final Year M.Tech Integrated Software Engineering Student, VIT
-Machine Learning | Data Science | Web Development
+**Akshaya Vardhini**  
+Pre-Final Year M.Tech Integrated Software Engineering Student, VIT  
+Machine Learning | Data Science | Web Development  
 
 ## Acknowledgments
 
